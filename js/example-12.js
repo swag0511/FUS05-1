@@ -1,6 +1,9 @@
 $(document).ready(function(){
     // console.log('ok!');
-    $('.menubar').on('click',function(){
-        $('.menu').toggleClass('menu-act');
+    var menubar = $('.menubar, .btn-menubar');
+    var menu = $('.menu');
+
+    menubar.on('click',function(){
+        menu.toggleClass('menu-act');
     });
 });
