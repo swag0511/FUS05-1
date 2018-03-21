@@ -6,6 +6,9 @@
     list-style-type: none;
     font: inherit;
 }
+p{
+    margin: 2em;
+}
 .heading{
     font-size: 3em;
 }
